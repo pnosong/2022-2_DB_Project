@@ -1,0 +1,113 @@
+
+header .header__inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .search {
+  width: 400px;
+  margin-right: 200px;
+  padding: 6px 16px;
+  border: 1px solid #ecedee;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .search:focus-within {
+  border: 1px solid black;
+}
+
+header .header__inner .search__input {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+header .header__inner .search__input::-webkit-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input:-ms-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input::-ms-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input::placeholder {
+  color: #cfd1d3;
+}
+
+@media all and (max-width: 992px) {
+  header .header__inner .search {
+    display: none;
+  }
+}
+
+header .header__inner .buttons {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .buttons-download {
+  padding: 9px;
+  font-size: 1.1rem;
+}
+
+header .header__inner .buttons-chat__button {
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #cfd1d3;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header .header__inner .buttons-chat__button2 {
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #cfd1d3;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media all and (max-width: 992px) {
+  header .header__inner .buttons {
+    display: none;
+  }
+}
+
+header .header__inner .tablet-buttons {
+  display: none;
+}
+
+@media all and (max-width: 992px) {
+  header .header__inner .tablet-buttons {
+    display: block;
+  }
+}

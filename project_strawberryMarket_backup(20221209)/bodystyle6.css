@@ -1,0 +1,115 @@
+body{
+  margin:0px;
+}
+
+.left{
+
+  height: auto;
+  background-color: aqua;
+  overflow: hidden;
+  float: left;
+}
+
+.mid{
+  margin-top: 82px;
+  background: #fff3f2;
+  padding: 30px 0 40px 0;
+}
+
+.mid .table__{
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: rgb(253, 253, 253);
+}
+
+.mid .table__body{
+  padding: 0 40px;
+}
+
+.mid .table__body .block{
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  width: 217px;
+  height: 238px;
+  margin-right: 34px;
+  margin-bottom: 40px;
+}
+
+.mid .table__body .block .submit__Container{
+  position: absolute;
+}
+
+.mid .table__body .block .submit__button{
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+  width: 217px;
+  height: 238px;
+  padding: 0px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.mid .table__body .block:nth-child(3n){
+  margin-right: 0px;
+}
+
+.mid .table__body .block .photo{
+  height: 160px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e7e7e7;
+}
+
+.mid .table__body .block .photo .size{
+  width:217px; height:160px;
+}
+
+.mid .table__body .block .info .title{
+  display: block;
+  font-weight: 600;
+  color: #212529;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mid .table__body .block .info .nickname{
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 6px;
+  color: #868e96;
+}
+
+.mid .table__body .block .info .price{
+  font-weight: 600;
+  color: #EB4B43;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 6px;
+}
+
+.right{
+
+  height: auto;
+  background-color: rgb(0, 68, 204);
+  overflow: hidden;
+  float: left;
+}
+
+.bottem{
+
+  height: auto;
+  background-color: rgb(94, 96, 101);
+  overflow: hidden;
+  float: left;
+}

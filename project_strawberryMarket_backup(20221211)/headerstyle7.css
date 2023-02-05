@@ -1,0 +1,158 @@
+body{
+  margin:0px;
+}
+.head{
+  background-color: rgb(255, 255, 255);
+  color: var(--seed-scale-color-gray-900);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 999;
+}
+
+
+.header__inner {
+  vertical-align: middle;
+  max-width: 1024px;
+  margin: 0 auto ;
+  padding: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .search {
+  width: 400px;
+  outline: black;
+  background-color: rgb(235, 235, 235);
+  box-shadow : 5px 5px 5px rgb(215, 215, 215);
+  padding: 6px 16px;
+  border: 1px solid #ecedee;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .header__inner .search:focus-within {
+  border: 1px solid black;
+}
+
+header .header__inner .search__from {
+  vertical-align: middle;
+}
+
+header .header__inner .search__input {
+  background-color: rgba(248,248,248,0);
+  width: 360px;
+  height: 29px;
+  font-size: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float:left;
+  border: none;
+  outline: none;
+}
+
+header .header__inner .search__button {
+  float:right;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #00000000;
+  border: none;
+}
+
+header .header__inner ::-webkit-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input:-ms-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input::-ms-input-placeholder {
+  color: #cfd1d3;
+}
+
+header .header__inner .search__input::placeholder {
+  color: #8a8a8a;
+}
+
+@media all and (max-width: 992px) {
+  header .header__inner .search {
+    display: none;
+  }
+}
+
+header .header__inner .buttons2 {
+  width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .buttons {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__inner .buttons-chat {
+  color: #b2b3b5;
+}
+
+header .header__inner .buttons-chat__button {
+  font-size: 1.1rem;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+header .header__inner .buttons-chat__button:hover {
+color: #cfd1d3;
+}
+
+header .header__inner .buttons-chat__button2 {
+  font-size: 1.1rem;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+header .header__inner .buttons-chat__button2:hover {
+  color: #cfd1d3;
+}
+
+@media all and (max-width: 992px) {
+  header .header__inner .buttons {
+    display: none;
+  }
+}
+
